@@ -6,13 +6,11 @@ pares de 1 a 100. */
 $i=1;
 $soma = 0;
 
-while($i <= 100){
-    if($i %2 == 0){
-        $soma = $soma + $i; 
-        $i++;
-    }else{
-        $i++;
+while($i <= 100){//repete ate o 100
+    if($i %2 == 0){//compara se é par
+        $soma = $soma + $i; //soma valor com o anterior 
     }
+    $i++;//incrementa numero
 }
 
 echo "A soma de todos os numeros pares de 1 a 100 é: $soma ";

@@ -3,7 +3,7 @@
 $nome = readline("Informe seu nome: ");
 $idade = readline("Infome sua idade: ");
 
-if($idade < 0){//meno   r que zero ainda nao existe
+if($idade < 0){//menor que zero ainda nao existe
 echo"Você ainda nem nasceu kkk";
 }else if($idade <= 12){// ate 12 crianca
     echo"$nome Você ainda é uma criança pois tem $idade anos. \n";

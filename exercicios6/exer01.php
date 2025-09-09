@@ -1,7 +1,7 @@
 <?php
 
-function ExibirCumprimento (){
+function exibirCumprimento (){
     echo"Bem-vindo ao meu programa em PHP!";
 }
 
-ExibirCumprimento();
+exibirCumprimento();

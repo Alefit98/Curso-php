@@ -11,7 +11,7 @@ while($cont < 10){// repete até pegar os 10 primeiros ímpares
         $soma = $soma + $i; //soma o  numero ao resultado
         $cont++;// incrementa contador
     }
-    $i++;//incrementa o numero
+    $i++;//incrementa o numero fora do if para incrementar em qualquer caso
 }
 
 echo "A soma do dobro dos 10 primeiros numeros *impares* de 1 a 100 é: " . ($soma * 2);

@@ -1,6 +1,6 @@
 <?php
 
-function Tabuada($num){
+function tabuada($num){
     for($i = 1; $i <=10; $i++){
         echo"$num x $i = " . ($num * $i) .PHP_EOL;
     }
@@ -8,4 +8,4 @@ function Tabuada($num){
 
 $num = (int)(trim(readline("Digite um numero: ")));
 
-Tabuada($num);
+tabuada($num);
